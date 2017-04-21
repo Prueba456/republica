@@ -9,10 +9,6 @@ body{
     background-repeat: no-repeat;
     display: inline-block;
 }
-.ubicacionO{
-  position: absolute;
-}
-
 .sprite-alcalde-de-chilca {
     width: 243px;
     height: 200px;
@@ -52,22 +48,7 @@ body{
     background-position: -580px -5px;
 }
 
-.sprite-real-madrid {
-    width: 243px;
-    height: 200px;
-    background-position: -580px -265px;
-    position: relative;
-    display: inline-block;
-}
 
-.sprite-senora {
-    width: 53px;
-    height: 84px;
-    background-position: -1015px -5px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
 #barra{
   height: 50px;
   background-color: #E20F0F;
@@ -89,7 +70,7 @@ a{
   padding: 10px;
 }
 #newPrincipal{
-  top: -280px;
+  top: -100px;
   width: 660px;
   position: relative;
   display: inline-block;
@@ -116,14 +97,6 @@ a{
   display: inline-block;
   position: relative;
 }
-.boxCeleste{
-  background-color:#1865A3;
-  color: white;
-  display: inline-block;
-  position: relative;
-  height: 200px;
-  width: 100px;
-}
 #iconsPlomo{
   position: absolute;
   display: inline-block;
@@ -147,6 +120,7 @@ left: 0px;
   height: 300px;
   position: relative;
   margin-right: 10px;
+  top: -18px;
 }
 .tamaño2{
   top: -5px;
@@ -161,26 +135,73 @@ left: 0px;
   height: 300px;
   position: relative;
 }
-#editorial{
-  font-size: 24px;
-  color: red;
-}
-.tituloMuro{
-  position: relative;
-  height: 70px;
-  background: #E20F0F;
-  color: white;
-  font-size: 24px;
-  margin: 3px;
-}
 .articulos{
   position: relative;
   display: inline-block;
   width: 370px;
 }
+
+.boxCeleste{
+  background-color:#1865A3;
+  color: white;
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 120px;
+  top: -51px;
+  font-size: 16px;
+}
+.boxCeleste2{
+  background-color:#1865A3;
+  color: white;
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 120px;
+  top: -90px;
+  font-size: 16px;
+}
+
+#editorial{
+  font-size: 19px;
+  color: red;
+}
+.tituloMuro{
+  position: relative;
+  height: 60px;
+  background: #E20F0F;
+  color: white;
+  font-size: 24px;
+  margin: 3px;
+}
 .artCeleste{
   position: relative;
+  display: inline-block;
+  height:200px;
+}
+.artCeleste2{
+  position: relative;
+  display: inline-block;
+  height:200px;
+}
+.sprite-real-madrid {
+    width: 243px;
+    height: 200px;
+    background-position: -580px -265px;
+    position: relative;
+    display: inline-block;
+}
 
+.sprite-senora {
+    width: 53px;
+    height: 84px;
+    background-position: -1015px -5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.ubicacionO{
+  position: absolute;
 }
 .container {
   width: 1040px;
